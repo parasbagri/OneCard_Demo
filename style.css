@@ -91,4 +91,39 @@ a{
 .btn a{
     color: white;
     margin-left: 10px;  
+}  
+@media (max-width:550px) {
+
+   .main-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-right: 50px;
+
+   } 
+   .left-side{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       margin-right: 30px;
+       overflow-x: hidden;
+       overflow-y: auto;
+   }
+   .right-items{
+       display: block;
+        
+   } 
+   .items{
+        margin-bottom: 10px;
+   }
+   .items:hover{
+       background-color: rgb(58, 130, 130);
+       padding: 0.1rem 0.2rem;
+   } 
+   a:hover{
+       color: white;
+   }
+   
 } 
+
